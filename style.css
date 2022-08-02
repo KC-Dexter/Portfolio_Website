@@ -29,6 +29,10 @@ background: crimson;
     display: flex;
     align-items: center;
     justify-content: flex-start;
+    transition: all 0.3s ease;
+}
+.navbar.sticky .max-width{
+    justify-content: space-between;
 }
 .navbar .logo a{
     color: #fff;
